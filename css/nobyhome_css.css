@@ -10,7 +10,9 @@ div.container {
     color: white;
     overflow: hidden;
 }
-
+.imgcards {
+    transition: 300ms all;
+}
 .start {
     padding: 40px 60px;
     display: flex;
