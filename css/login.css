@@ -1,0 +1,167 @@
+﻿body {
+    font-family: Calibri;
+    background: url(1409109.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+
+/*.background {
+    background: url(1409109.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,a,button{
+    font-family: "monsterrat",sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration:none;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 30px 10%;
+}
+
+.nav-links{
+    list-style:none;
+}
+
+.nav-links li{
+    display:inline-block;
+    padding:0px 20px;
+}
+
+.nav-links li a {
+    transition:all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color:#0088a9;
+}
+
+.cta {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+
+}
+
+p {
+    color:azure;
+    font-size:70px;
+    text-align:center;
+    font-family:monsterrat;
+}
+
+.box {
+    width:300px;
+    padding:30px;
+    position:absolute;
+    top :50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:rgb(0, 0, 0, 0.50);
+    border-radius:30px;
+    
+}
+
+.box h1{
+    color :white;
+    text-transform:uppercase;
+    font-weight:700;
+    text-align: center;
+}
+
+    .box input[type="text"], .box input[type="username"] {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 3px solid #0367fd;
+        padding: 14px 10px;
+        width: 220px;
+        outline: none;
+        color: #0367fd;
+        border-radius: 24px;
+        transition: 0.3s;
+    }
+
+        .box input[type="text"]:focus, .box input[type="username"]:focus {
+            width: 260px;
+            border-color: #ff0000;
+        }
+
+.box input[type="text"],.box input[type="password"]{
+    border:0;
+    background:none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding:14px 10px;
+    width:220px;
+    outline:none;
+    color:#0367fd ;
+    border-radius: 24px;
+    transition:0.3s;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width:260px;
+    border-color:#ff0000;
+}
+
+/*.login  {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ff0000;
+    padding: 14px 30px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+    .login1 :hover {
+        background: red;
+    }*/
+.btt1
+{
+    background:none;
+    border:3px solid red;
+    border-radius:30px;
+    padding:5px 20px;
+    font-size:20px;
+    position:relative;
+    left:80px;
+
+}
+.btt1:hover
+{
+    background-color:red;
+    transition:0.3s;
+}

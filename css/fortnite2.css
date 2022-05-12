@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+::selection{
+    color: red;
+} 
+
+
+header{
+    grid-area: logo;
+    color: #ffb020;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+nav{
+    grid-area: nav;
+    background-color: black;
+    color: #ffb020;
+    font-family: fantasy;
+}
+section{
+    grid-area: cont;
+    background-color: beige;
+}
+aside{
+    grid-area: sid;
+    background-color: #ffb020;
+    color: black;
+    font-family: fantasy;
+    /* border-bottom: 406vh solid beige;
+    border-top: 10px solid beige;
+    border-left: 10px solid beige;
+    border-right: 10px solid beige; */
+}
+footer{
+    grid-area: foot;
+    background-color: dimgray;
+}
+.page{
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
+    grid-template-rows: 70px auto 184px;
+    background-color: black;
+    grid-template-areas: "logo logo nav nav nav nav nav nav nav nav nav nav nav nav nav" "sid sid cont cont cont cont cont cont cont cont cont cont cont cont cont" "foot foot foot foot foot foot foot foot foot foot foot foot foot foot foot";
+    height: 555vh;
+}
+.navbar{
+    display: inline-block;
+    padding: 15px 243px 0px 0px;
+    transform: translate(360px, 10px);
+}
+/* a {
+    text-decoration: none;
+    color: #ffb020;
+    transition: 0.7s;
+
+} */
+.navbarlink:hover{
+    color: red;
+    border-bottom:5px solid red ;
+}
+.moregames{
+    text-align: center;
+    padding: 27px;
+}
+.list2{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+padding-left: 41px;
+
+}
+.listgames{
+    list-style-type: disclosure-closed;
+    padding: 32px;
+    color: black;
+    transition: 00.7s;
+}
+.a3{
+    color: #ffb020;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+}
+i{
+    color: #ffb020;
+    transition: 00.7s;
+
+}
+.a3{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffb020;
+    transition: 0.7s;
+}
+.row{
+    display: flex;
+    padding: 10px;
+    width: 700px;
+    transform: translate(0px, 12px);
+}
+i:hover{
+   color: red;
+   border-bottom: 5px solid red;
+}
+#game{
+    animation-name: color-icon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: #ffb020;
+    border: none;
+}
+@keyframes color-icon {
+    0%{
+     color: red;   
+    }
+25%{
+    color:green;
+}
+50%{
+    color:blue
+}
+75%{
+    color:pink;
+}
+100%{
+    color:#ffb020;
+}
+}
+#i2{
+    font-size: 20px;
+}
+.login{
+    position: relative;
+    left: 1540px;
+    top: -18px;
+    width: 80px;
+    height: 39px;
+    font-size: 20px;
+    border: 7px solid #ffb020;
+    background-color: black;
+    border-radius: 10px 0 10px 0;
+    font-family: fantasy;
+    transition: 00.7s;
+}
+.log{
+    padding: 0;
+    transition: 00.7s;
+    text-decoration: none;
+    color: #ffb020;
+}
+button:hover{
+    border-color: red;
+}
+.log:hover{
+    color: red;
+}
+.linkgame{
+    color: black;
+    text-decoration: none;
+    transition: 0.7s;
+}
+.home{
+    text-decoration: none;
+    color: #ffb020;
+    transition: 0.7s;
+}
+.navbarlink{
+    text-decoration: none;
+    color: #ffb020;
+    transition: 0.7s;
+}
+.listgames:hover{
+    background-color: red;
+}
+.image1{
+  
+    width: -webkit-fill-available;
+    height: 347px;
+
+}
+.section .sectionname{
+
+    font-size: 35px;
+    padding: 25px 0px 41px 58px;
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing: 6px;
+    text-shadow: 5px 2px #ffb020;
+}
+.section .sectionp{
+    font-size: 20px;
+    padding: 32px 0px 100px 76px;
+    width: 1200px;
+    font-family: cursive;
+}
+.section .hr{
+    width: 1559px;
+    height: 4px;
+    color: black;
+    background-color: black;
+    transform: rotateY(45deg);
+    animation-name: hr;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes hr {
+    
+
+    0%{
+        transform: rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(45deg);
+    }
+}
+.section .sectionimage{
+    
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 293px;
+    top: -61px;
+    border: 10px solid #ffb020;
+    border-radius: 20px;
+
+}
+.tablename{
+    font-size: 35px;
+    padding: 25px 0px 41px 58px;
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing: 6px;
+    text-shadow: 5px 2px #ffb020;
+}
+table{
+    position: relative;
+    left: 328px;
+    bottom: -77px;
+    width: 1000px;
+    height: 342px;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 18px;
+}
+thead{
+    background-color: black;
+    height: 51px;
+    color: #ffb020;
+}
+tbody{
+    background-color: #ffb020;
+}
+.hr2{
+    width: 1559px;
+    height: 4px;
+    color: black;
+    background-color: black;
+    transform: rotateY(45deg);
+    animation-name: hr;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    position: relative;
+    bottom: -137px;
+}
+.contactname{
+    font-size: 35px;
+    padding: 25px 0px 41px 58px;
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing: 6px;
+    text-shadow: 5px 2px #ffb020;
+    position: relative;
+    text-align: center;
+    top: 147px;
+}
+form{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    top: 251px;
+    left: 27px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    line-height: 39px;
+    width: 1600px;
+}
+input{
+    border-radius: 50px;
+    letter-spacing: 1px;
+    width: 381px;
+    height: 37px;
+    font-family: fantasy;
+    font-size: 15px;
+    border: 1px solid black;
+    text-indent: 16px;
+    margin-bottom: 42px;
+    background-color: #ffb020;
+}
+label{
+    position: relative;
+    top: 28px;
+    right: 200px;
+}
+textarea{
+    width: 600px;
+    height: 300px;
+    font-family: fantasy;
+    font-size: 18px;
+    text-indent: 14px;
+    border: 1px solid black;
+    letter-spacing: 2px;
+    padding-top: 19px;
+    margin-bottom: 46px;
+    border-radius: 35px;
+    background-color: #ffb020;
+}
+.sub{
+    width: 200px;
+    position: relative;
+    left: 343px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.sub1{
+    bottom: 79px;
+    width: 200px;
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.sub1:hover{
+    background-color: red;
+}
+.sub:hover{
+    background-color: red;
+}
+.about{
+    position: relative;
+    bottom: 131px;
+    left: 1123px;
+    width: 600px;
+    font-family: fantasy;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.information{
+margin: 0px;
+}
+#information{
+    font-size: 30px;
+    padding-right: 29px;
+    margin-bottom: 17px;
+}

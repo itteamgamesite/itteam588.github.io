@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transform: scale(auto);
+}
+
+div.container {
+    background-color: rgba(9, 7, 7, 0.623);
+    color: white;
+    overflow: hidden;
+}
+
+.start {
+    padding: 40px 60px;
+    display: flex;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigationbar {
+    margin: 0;
+    position: relative;
+    left: 450px;
+    transform: translateX(-40%) translateY(0%);
+}
+
+.logo {
+    padding: 16px 14px;
+    float: left;
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    /* display: inline-block; */
+}
+
+div.intro {
+    width: 85%;
+    height: auto;
+    margin: 0px 0px;
+    padding: 15px 10px;
+    background-color: black;
+    /* background-image: url(background.png); */
+    background-size: cover;
+    text-align: center;
+    background-position: 50%;
+}
+
+div .img {
+    transform: translateY(-35%) translateX(-20%);
+    position: relative;
+}
+
+div .paragraph {
+    margin-left: 60px;
+}
+
+div .video {
+    margin-left: 50px;
+    margin-bottom: 150px;
+    height: 350px;
+}
+
+.fot {
+    position: relative;
+    bottom: 30px;
+    left: 500px;
+    color: white;
+}
+
+.log {
+    width: 280px;
+    height: 320px;
+    padding: 40px;
+    position: absolute;
+    top: 21%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    background: black;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+.log input[type="text"],
+.log input[type="password"] {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid rgb(249, 141, 18);
+    /* padding: 20px 20px; */
+    width: 200px;
+    height: 40px;
+    color: antiquewhite;
+    border-radius: 30px;
+}
+
+.end {
+    position: relative;
+    bottom: 120px;
+    right: 10px;
+}
+
+.end2 {
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+}
+
+.end3 {
+    position: relative;
+    bottom: 120px;
+    left: 220px;
+}
+
+div .play {
+    text-align: center;
+    background: none;
+    /* display: block; */
+    margin: 20px auto;
+    border: 3px solid rgb(240, 47, 80);
+    width: 190px;
+    height: 60px;
+    color: antiquewhite;
+    border-radius: 30px;
+    transition: 0.7s;
+    cursor: pointer;
+    position: relative;
+    font-size: 40px;
+    bottom: 700px;
+    left: 100px;
+}
+
+div .play:hover {
+    background: rgb(240, 47, 80);
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+}
+
+.log input[type="submit"] {
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid rgb(249, 141, 18);
+    width: 110px;
+    height: 35px;
+    color: antiquewhite;
+    border-radius: 30px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.log input[type="submit"]:hover {
+    background: rgb(240, 47, 80);
+}
+
+.para {
+    max-width: 1500px;
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 700;
+    word-break: break-word;
+    color: bisque;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.text {
+    color: bisque;
+    max-width: 1500px;
+    line-height: 1.6;
+    font-weight: 700;
+    padding-left: 50px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 800px;
+    transform: translateY(-120%) translateX(37%);
+}
+
+.text2 {
+    width: 250px;
+    height: 70px;
+}
+
+.parag {
+    width: 400px;
+    font-size: x-large;
+    margin: 20px;
+    text-align: center;
+    right: 90px;
+    position: relative;
+}
+
+.footer {
+    width: 115%;
+    position: relative;
+    height: auto;
+    background-color: #2a3140;
+}
+
+.footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.footer .col ul li:hover {
+    color: #ffffff;
+    transition: .3s;
+}
+
+.clearfix {
+    clear: both;
+}
+
+form {
+    padding-top: 100px;
+    padding-right: 1350px;
+    margin-top: 5%;
+}

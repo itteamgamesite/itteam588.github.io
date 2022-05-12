@@ -1,0 +1,167 @@
+body {
+    background-color: #1a3749;
+    overflow-x: hidden;
+    transform: scale(auto);
+}
+
+div.container {
+    background-color: #070617;
+    color: rgba(246, 173, 55, 0.94);
+    overflow: hidden;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.fot {
+    position: relative;
+    bottom: 30px;
+    left: 500px;
+    color: white;
+}
+
+.nav {
+    padding: 7px 14px 25px;
+    display: flex;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px 100px 5px;
+}
+
+div .map:hover {
+    transform: scale(130%);
+    transition: 0.6s;
+}
+
+div .map2:hover {
+    transform: scale(130%);
+    transition: 0.6s;
+}
+
+.home {
+    text-decoration: none;
+    padding: 16px 14px;
+    display: flex;
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px 100px 5px;
+    text-shadow: 20px;
+}
+
+.firstfour {
+    display: inline;
+    margin-top: 1000px;
+    margin: 130px;
+    color: rgb(221 140 36 / 98%);
+    /* position: relative; */
+}
+
+.second {
+    display: inline;
+    color: rgb(221 140 36 / 98%);
+    margin: 200px 200px 200px 150px;
+    left: 30px;
+    padding: 60px;
+}
+
+.map2 {
+    width: 250px;
+    height: 250px;
+    margin: 90px 90px 90px 120px;
+    padding-left: 100px;
+    padding-top: 10px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+
+.link1 {
+    text-decoration: none;
+    color: rgba(246, 173, 55, 0.94);
+}
+
+nav li :hover {
+    background-color: rgb(210, 151, 151);
+    transform: scale(130%);
+    transition: 0.6;
+}
+
+.map {
+    width: 210px;
+    height: 210px;
+    margin: 30px;
+    padding-left: 100px;
+    padding-top: 10px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+}
+
+.footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.footer .col ul li:hover {
+    color: #ffffff;
+    transition: .3s;
+}
+
+.clearfix {
+    clear: both;
+}
+
+ul .bar {
+    margin: 0;
+    position: relative;
+    left: 450px;
+    transform: translateX(20%);
+}

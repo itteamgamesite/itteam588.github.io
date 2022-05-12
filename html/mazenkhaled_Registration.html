@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8 " />
+    <title> Registration Page </title>
+    <style>
+        body {
+            background-image: url('file:///D:/Mazen%20Khaled/media/wp2587707-crossfire-wallpaper-hd.jpg');
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="color: rgb(255, 0, 0);">Registration</h1>
+    <form method="post">
+        <div>
+            <label>
+                <h4 style="color: white;"> Email </h4>
+            </label>
+            <input type="email" name="Email">
+        </div>
+        <div>
+            <label>
+                <h4 style="color: white;"> Username </h4>
+            </label>
+            <input type="text" name="Username">
+        </div>
+        <br>
+
+        <div>
+            <label>
+                <h4 style="color: white;"> Password </h4>
+            </label>
+            <input type="password" name="password" minlength="10" maxlength="25">
+        </div>
+        <div>
+            <label>
+                <h4 style="color: white;"> Year </h4>
+            </label>
+            <input type="number" name="Year" min="1800" max="3000" step="10">
+        </div>
+        <div>
+            <label>
+                <h4 style="color: white;"> Month </h4>
+            </label>
+            <input type="number" name="Month" min="1" max="31">
+        </div>
+        <div>
+            <label>
+                <h4 style="color: white;"> Day </h4>
+            </label>
+            <input type="number" name="Day" min="1" max="31">
+        </div>
+        <br>
+
+        <input id="male" type="radio" name="Gender" value="Male">
+        <label for="male" style="color: white;">
+            Male
+        </label>
+
+        <input id="fem" type="radio" name="Gender" value="Female">
+        <label for="fem" style="color: white;">
+            Female
+        </label>
+        <br>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Registire">
+
+    </form>
+</body>
+
+</html>

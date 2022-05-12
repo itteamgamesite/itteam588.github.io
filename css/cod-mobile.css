@@ -1,0 +1,254 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    background-color: black;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: "monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #999999;
+    text-decoration: none;
+}
+
+button {
+    font-family: "monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(255,223,0,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+    button:hover {
+        background-color: rgba(255,223,0,0.8);
+    }
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+        display: inline-block;
+        padding: 0px 20px;
+}
+
+.nav-links li a {
+            transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+                color: #ffd900;
+}
+
+.logo {
+    cursor: pointer;
+    height: 60px;
+}
+
+.gameinfo {
+    width: 100%;
+}
+
+.material1 {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+}
+
+.material2 {
+    height: 384px;
+    width: 662px;
+    margin: 5% 25%;
+    border: 12px solid #14242f;
+    border-radius: 30px;
+    position: relative;
+    right: 20%;
+}
+
+.p1 {
+    margin: 20px;
+    font-weight: 500;
+}
+
+.p2 {
+    position: relative;
+    float: right;
+    margin-top: -25%;
+    right: 5%;
+    bottom: 10%;
+    font-weight: 500;
+    line-height: 1.4;
+    background-color: rgba(0,0,0,0);
+}
+
+.info p {
+    padding: 30px 30px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: gold;
+    line-height: 40px;
+}
+
+
+.photos {
+    width: 100%;
+}
+
+    .photos h1 {
+        padding: 30px 30px 10px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        color: gold;
+        line-height: 40px;
+    }
+
+    .photos p {
+        padding: 30px 30px 20px;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        color: gold;
+        line-height: 30px;
+    }
+
+    .photos img {
+        width: 100vh;
+    }
+
+.photo1 {
+    margin: 2% 0 2% 25%;
+}
+
+.photo2 {
+    margin: 2% 0 2% 25%;
+}
+
+.photo3 {
+    margin: 2% 0 2% 25%;
+}
+
+.photo4 {
+    margin: 2% 0 2% 25%;
+}
+
+.photo5 {
+    margin: 2% 0 2% 25%;
+}
+
+.p3{
+    margin:0 0 5% 0;
+}
+
+.go {
+    margin: 0 0 3% 47%;
+}
+
+.container {
+    max-width:1170px;
+    margin:auto ;
+    
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+ul{
+    list-style:none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+
+}
+
+.col{
+    width:25%;
+    padding:0 15px;
+}
+
+.col h4{
+    font-size: 18px;
+    color:#ffffff;
+    text-transform:capitalize;
+    margin-bottom:35px;
+    font-weight:500;
+    position:relative;
+}
+
+.col h4::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    background-color:#e91e63;
+    height:2px;
+    box-sizing:border-box;
+    width:50px;
+}
+
+.col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.col ul li a {
+    font-size:16px;
+    text-transform:capitalize;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:300;
+    color:#bbbbbb;
+    display:block;
+    transition:all 0.3s ease;
+}
+
+.col ul li a:hover {
+    color:#ffffff;
+    padding-left:7px;
+}
+
+.col .social-links a {
+    display:inline-block;
+    height:40px;
+    width:40px;
+    background-color:rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align:center;
+    line-height:40px;
+    border-radius:50%;
+    color:#ffffff;
+    transition:all 0.5s ease;
+}
+
+.col .social-links a:hover{
+    color: #24262b;
+    background-color:#ffffff;
+} 

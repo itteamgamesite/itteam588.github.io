@@ -1,0 +1,126 @@
+.what_is_the_game {
+    color: rgba(255, 0, 0, 0.8);
+
+    font-size: 25px;
+}
+
+.blure {
+    background-color: rgba(0, 0, 0, 0.605);
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-top-color: hsla(0, 0%, 0%, 0.603);
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+}
+
+
+.address {
+    background-color: rgba(0, 0, 0, 0.605);
+    padding-left: 30px;
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom: -24px;
+    margin-left: 20px;
+    border-style: groove;
+    border-top-color: rgba(0, 0, 0, 0.605);
+    border-right-color: black;
+    border-left-color: black;
+}
+
+.mainnav {
+    background-color: rgba(0, 0, 0, 0.764);
+    padding-bottom: -60px;
+    list-style: none;
+    margin-bottom: -50px;
+    display: flex;
+    border: solid black;
+    margin-left: -10px;
+    margin-right: -15px;
+    margin-top: -15px;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    color: aliceblue;
+    padding-right: 300px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+
+
+}
+
+
+
+.li1 {
+    padding-right: 70px;
+    margin: 5px;
+    border-bottom: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 70px;
+
+}
+
+.li2 {
+    padding-right: 60px;
+    margin: 5px;
+    border-bottom: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 70px;
+
+}
+
+.li3 {
+    padding-right: 60px;
+    margin: 5px;
+    border-bottom: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 70px;
+
+}
+
+.trailer {
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.TR {
+    /* padding-right: 100px; */
+    margin-left: 400px;
+    margin-top: -10px;
+    border-radius: 30px;
+}
+
+.par {
+    overflow: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Development {
+    color: rgba(255, 0, 0, 0.8);
+
+    font-size: 25px;
+}
+
+.blure2 {
+    background-color: rgba(0, 0, 0, 0.605);
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    border-style: groove;
+    border-top-color: hsla(0, 0%, 0%, 0.603);
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+}
